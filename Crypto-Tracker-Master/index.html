@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cryptocurrency Price Tracker</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="header">
+          <h1>CRYPTO CURRENCY PRICE TRACKER</h1>
+          <input
+            type="text"
+            id="search"
+            placeholder="Search for a cryptocurrency..."
+          />
+        </div>
+        <div class="crypto-container">
+          <div class="heading">
+            <div class="crypto-icon">
+              <h4>Coin</h4>
+            </div>
+            <div class="crypto-price">
+              <h4>Price</h4>
+            </div>
+            <div class="change">
+              <h4>Change</h4>
+            </div>
+            <div class="volume">
+              <h4>24h Volume</h4>
+            </div>
+            <div class="market-cap">
+              <h4>Market Cap</h4>
+            </div>
+            <div class="action">
+              <h4>Action</h4>
+            </div>
+          </div>
+          <div class="crypto-list"></div>
+        </div>
+        <div class="pagination">
+          <button id="prev">Previous</button>
+          <span id="page-number">1</span>
+          <button id="next">Next</button>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
